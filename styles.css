@@ -54,7 +54,7 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1000;
+    z-index: 9999;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -135,6 +135,7 @@ body {
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    z-index: 1;
 }
 
 .hero .background {
@@ -232,6 +233,9 @@ body {
 .engines-preview,
 .demos-section {
     padding: 120px 0;
+    position: relative;
+    z-index: 2;
+    background-color: var(--color-light-grey);
 }
 
 .section-title {
