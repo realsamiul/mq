@@ -1,3 +1,19 @@
+/* Fix for Vercel deployment - z-index stacking */
+.demos-section {
+    position: relative;
+    z-index: 2;
+}
+
+.demo-card {
+    position: relative;
+    z-index: 2;
+}
+
+.summary-section {
+    position: relative;
+    z-index: 2;
+}
+
 /* ===================================
    Demos Page Specific Styles
    =================================== */

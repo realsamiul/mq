@@ -1,3 +1,14 @@
+/* Fix for Vercel deployment - z-index stacking */
+.contact-section {
+    position: relative;
+    z-index: 2;
+}
+
+.credentials-section {
+    position: relative;
+    z-index: 2;
+}
+
 /* ===================================
    Contact Page Specific Styles
    =================================== */
